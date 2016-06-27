@@ -1,0 +1,22 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "mini",
+            "description": "Come in packs of ten. Work well on roller-skates"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "medium",
+            "description": "Great for propelling carts or other vehicles"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "massive",
+            "description": "Strap yourself to this and catch the fastest prey"
+        }
+    ]
+}

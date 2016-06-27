@@ -1,0 +1,12 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "name": "Dynamite"
+        },
+        {
+            "id": 1,
+            "name": "Rockets"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "short fuse",
+            "description": "For quick holes in rock walls"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "medium fuse",
+            "description": "When you need exact timing to get that roadrunner"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "long fuse",
+            "description": "Perfect for traps or bridge demolition"
+        }
+    ]
+}
