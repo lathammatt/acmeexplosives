@@ -3,7 +3,7 @@
     	{
         "tnt": {
             "id": 0,
-            "type": 1,
+            "type": 0,
             "name": "TNT",
             "description": "Your basic red stick"
         }
@@ -95,6 +95,6 @@
             "name": "The Pluto",
             "description": "Will likely take you way way way past the moon"
         }
-    },
+    }
 	]
 }
