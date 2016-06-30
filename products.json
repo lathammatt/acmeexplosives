@@ -19,7 +19,7 @@
     {
         "firecrappers": {
             "id": 2,
-            "type": 0,
+            "type": 1,
             "name": "Firecrappers",
             "description": "Named for their color and what they might make you do"
         }
@@ -27,7 +27,7 @@
     {
         "Kaboomers": {
             "id": 3,
-            "type": 0,
+            "type": 1,
             "name": "Kaboomers",
             "description": "For a more radial-based explosion"
         }
@@ -35,7 +35,7 @@
     {
         "Sayonara": {
             "id": 4,
-            "type": 0,
+            "type": 2,
             "name": "Sayonara",
             "description": "When you just need to destroy every bird in the room"
         }
@@ -43,7 +43,7 @@
     {
         "Atom Bomb": {
             "id": 5,
-            "type": 0,
+            "type": 2,
             "name": "Atom Bomb",
             "description": "We legally can't say that what this is, but that's what this is"
         }
@@ -51,7 +51,7 @@
     {
         "Scooter": {
             "id": 6,
-            "type": 1,
+            "type": 0,
             "name": "Scooter",
             "description": "The little rocket that could"
         }
@@ -59,7 +59,7 @@
     {
         "The Dart": {
             "id": 7,
-            "type": 1,
+            "type": 0,
             "name": "The Dart",
             "description": "Great for aiming at fast targets"
         }
@@ -83,7 +83,7 @@
     {
         "The Apollo": {
             "id": 11,
-            "type": 1,
+            "type": 2,
             "name": "The Apollo",
             "description": "Will take you to the moon"
         }
@@ -91,7 +91,7 @@
     {
         "The Pluto": {
             "id": 11,
-            "type": 1,
+            "type": 2,
             "name": "The Pluto",
             "description": "Will likely take you way way way past the moon"
         }
