@@ -12,25 +12,24 @@ $(document).ready(function(){
 		if (selection === "1"){
 			$("#output").empty();
 			console.log("1", selection);
-			// firstAjax();
 			buildDom(0);
 		} else if (selection === "2"){
 			$("#output").empty();
 			console.log("2", selection);
-			// firstAjax();
 			buildDom(1);
-		} else {}
+		} else {
+			$("#output").empty();
+		}
 	});
 
 	function buildDom (num){
-		var main = $("<div></div>").addClass("main");
+		var main = $("<div></div>").addClass("main h1");
 		$("#output").append(main);
 		main.append(categs.categories[num].name);
-			// console.log("check", types.types.length);
 		for (var i = 0; i < types.types.length; i++) {
 			if (types.types[i].category === num){
 				console.log("types", types.types[i].name, i);
-				var ty = $("<div></div>").addClass("type");
+				var ty = $("<div></div>").addClass("type h3");
 				main.append(ty);
 				ty.append("Type: " + types.types[i].name);
 
@@ -42,14 +41,12 @@ $(document).ready(function(){
 						var innerProduct = currentThing[currentKey];
 
 					if (innerProduct.type === i){
-						var pro = $("<div></div>").addClass("prods");
+						var pro = $("<div></div>").addClass("prods h4");
 						ty.append(pro);
-						console.log("what", innerProduct.name, innerProduct.type, i);
 						pro.append(innerProduct.name);
-						var desc = $("<div></div>").addClass("desc");
+						var desc = $("<div></div>").addClass("desc small");
 						pro.append(desc);
 						desc.append(innerProduct.description);
-						console.log("huh", innerProduct.description, innerProduct.type, i);
 						}	
 					}
 				}
