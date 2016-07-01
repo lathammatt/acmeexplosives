@@ -51,7 +51,7 @@
     {
         "Scooter": {
             "id": 6,
-            "type": 0,
+            "type": 3,
             "name": "Scooter",
             "description": "The little rocket that could"
         }
@@ -59,7 +59,7 @@
     {
         "The Dart": {
             "id": 7,
-            "type": 0,
+            "type": 3,
             "name": "The Dart",
             "description": "Great for aiming at fast targets"
         }
@@ -67,7 +67,7 @@
     {
         "Engine": {
             "id": 8,
-            "type": 1,
+            "type": 4,
             "name": "Engine",
             "description": "Can turn a wooden crate into a rocket sled"
         }
@@ -75,15 +75,15 @@
     {
         "Bazooke": {
             "id": 9,
-            "type": 1,
+            "type": 4,
             "name": "Bazooke",
             "description": "When you need to get to Albuquerque fast"
         }
     },
     {
         "The Apollo": {
-            "id": 11,
-            "type": 2,
+            "id": 10,
+            "type": 5,
             "name": "The Apollo",
             "description": "Will take you to the moon"
         }
@@ -91,7 +91,7 @@
     {
         "The Pluto": {
             "id": 11,
-            "type": 2,
+            "type": 5,
             "name": "The Pluto",
             "description": "Will likely take you way way way past the moon"
         }

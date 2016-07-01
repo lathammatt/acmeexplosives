@@ -3,7 +3,7 @@
 	var categs;
 	var types;
 	var prods;
-	var result = [];
+	// var result = [];
 
 $(document).ready(function(){
 
@@ -28,26 +28,29 @@ $(document).ready(function(){
 		main.append(categs.categories[num].name);
 			// console.log("check", types.types.length);
 		for (var i = 0; i < types.types.length; i++) {
-			// console.log("types", types[i]);
 			if (types.types[i].category === num){
+				console.log("types", types.types[i].name, i);
 				var ty = $("<div></div>").addClass("type");
 				main.append(ty);
 				ty.append(types.types[i].name);
+				
 				for (var j = 0; j < prods.products.length; j++) {
 					var currentThing = prods.products[j];
+					console.log("thing", currentThing);
 					for (var currentKey in currentThing) {
+						console.log("key", currentKey);
 						var innerProduct = currentThing[currentKey];
-						for (var allIn in innerProduct)
-						console.log("what", innerProduct[allIn], j, i);
-						console.log("huh", currentKey);
+						// for (var allIn in innerProduct)
 
 					if (innerProduct.type === i){
 						var pro = $("<div></div>").addClass("prods");
 						ty.append(pro);
+						console.log("what", innerProduct.name, innerProduct.type, i);
 						pro.append(innerProduct.name);
 						var desc = 	$("<div></div>").addClass("desc");
 						desc.append(pro);
 						desc.append(innerProduct.description);
+						console.log("huh", innerProduct.description, innerProduct.type, i);
 						}	
 					}
 				}
